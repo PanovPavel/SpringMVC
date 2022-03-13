@@ -1,7 +1,8 @@
 # SpringMVC
 Простое приложение выполняющее все CRUD операции
 USE my_db;
-
+<details>
+  <summary>База данных</summary>
 CREATE TABLE employees (
   id int NOT NULL AUTO_INCREMENT,
   name varchar(15),
@@ -16,4 +17,4 @@ VALUES
 	('Zaur', 'Tregulov', 'IT', 500),
 	('Oleg', 'Ivanov', 'Sales', 700),
 	('Nina', 'Sidorova', 'HR', 850);
-
+</details>
